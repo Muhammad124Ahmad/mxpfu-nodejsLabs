@@ -31,6 +31,7 @@ app.use("/user", (req, res, next) => {
     }
 });
 
+
 // Parse JSON request bodies
 app.use(express.json());
 
